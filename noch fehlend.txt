@@ -1,0 +1,14 @@
+alle pi anbindungen. -> radiobtn, accelometer 
+joystick/movement
+constrait layout    (vertikal- hozirontalanpassung oder ausschaltung des auto-anpassens)
+design verbesserungen 
+
+bei on click muss was geändert werden
+
+
+
+
+
+
+Problem: apps kann nicht an meinem pc getestet werden, weil die einen intel prozessor vorraussetzen. 
+	 Nicht wissen welche anbindungen beim pi genutzt werden
