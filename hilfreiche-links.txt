@@ -3,3 +3,5 @@ http://home.kendra.com/mauser/joystick.html
 https://stackoverflow.com/questions/10097491/call-and-receive-output-from-python-script-in-java
 
 https://developer.android.com/guide/webapps/webview
+
+https://www.raspberrypi.org/documentation/usage/webcams/
