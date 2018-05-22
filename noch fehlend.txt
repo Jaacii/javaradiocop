@@ -1,9 +1,11 @@
-alle pi anbindungen. -> radiobtn, accelometer 
-joystick/movement
-constrait layout    (vertikal- hozirontalanpassung oder ausschaltung des auto-anpassens)
+-alle pi anbindungen. -> radiobtn, CamMovement, VehicleMovement
+-joystick/movement als ersatz für die tasten
+-richtiges radio, livestream streamen  (momentan nur youtube und ne testseite)
+-constrait layout    (vertikal- hozirontalanpassung oder ausschaltung des auto-anpassens)
 design verbesserungen 
 
-bei on click muss was geändert werden
+
+
 
 
 
