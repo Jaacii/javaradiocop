@@ -43,8 +43,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         videoView.start();
 		
-		String url ="http://abhiandroid-8fb4.kxcdn.com/ui/wp-content/uploads/2016/04/videoviewtestingvideo.mp4";
-		WebView view = (WebVie) this.findViewById(R.id.webview);
+		String test ="http://abhiandroid-8fb4.kxcdn.com/ui/wp-content/uploads/2016/04/videoviewtestingvideo.mp4";
+		String url ="192.168.0.192:8081";
+		WebView view = (WebView) this.findViewById(R.id.webview);
 		view.getSettings().setJavaScriptEnabled(true);
 		view.loadUrl(url);
 
