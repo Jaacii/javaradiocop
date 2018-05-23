@@ -5,3 +5,17 @@ https://stackoverflow.com/questions/10097491/call-and-receive-output-from-python
 https://developer.android.com/guide/webapps/webview
 
 https://www.raspberrypi.org/documentation/usage/webcams/
+
+http://www.hivemq.com/demos/websocket-client/
+mqtt
+
+
+https://blog.unixweb.de/live-tracking-mit-mqtt-und-owntracks-auf-dem-raspberry-pi/
+https://www.youtube.com/watch?v=_RUC9Epyjg8
+
+
+https://github.com/oksbwn/IOT_Raspberry_Pi/blob/master/src/in/weargenius/mqtt/SendDataUsingMQTT.java
+
+https://stackoverflow.com/questions/15069857/how-to-interract-android-applications-with-a-raspberry-pi
+- for example android App use a GET request to http://192.168.0.10:8080/GPIO/Toggle/3 your raspberry Pi server, listening to port 8080, will toggle GPIO 3 and reply back to Android 00001000 (meaning that GPIO 3 is On).
+

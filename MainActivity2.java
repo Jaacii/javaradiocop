@@ -21,9 +21,9 @@ import android.webkit.WebView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     boolean radioplaying = false;
-    private TextView xText, yText, zText;
-    private SensorManager SM;
-    private Sensor mySensor;
+   // private TextView xText, yText, zText;
+  //  private SensorManager SM;
+  //  private Sensor mySensor;
     private Button radiobtn, forward, backward, stop, left, right;
 
 
@@ -37,28 +37,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         radiobtn.setOnClickListener(this);
 
 //Video/ LIVESTREAM START
-        Uri uri = Uri.parse("http://abhiandroid-8fb4.kxcdn.com/ui/wp-content/uploads/2016/04/videoviewtestingvideo.mp4");
+        Uri uri = Uri.parse("192:168:0:192.8081");
         VideoView videoView = findViewById(R.id.videoView) ;
         videoView.setVideoURI(uri);
 
         videoView.start();
-		
-		String test ="http://abhiandroid-8fb4.kxcdn.com/ui/wp-content/uploads/2016/04/videoviewtestingvideo.mp4";
-		String url ="192.168.0.192:8081";
-		WebView view = (WebView) this.findViewById(R.id.webview);
-		view.getSettings().setJavaScriptEnabled(true);
-		view.loadUrl(url);
+						//Refresh button fehlt
+		//String url ="http://abhiandroid-8fb4.kxcdn.com/ui/wp-content/uploads/2016/04/videoviewtestingvideo.mp4";
+		//WebView view = (WebVie) this.findViewById(R.id.webview);
+		//view.getSettings().setJavaScriptEnabled(true);
+		//view.loadUrl(url);
 
 
 //SensorManager init
-        SM = (SensorManager)getSystemService(SENSOR_SERVICE);				//error?
+   /*     SM = (SensorManager)getSystemService(SENSOR_SERVICE);
         mySensor = SM.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         SM.registerListener(this, mySensor, SensorManager.SENSOR_DELAY_NORMAL);
 
 
         xText = (TextView)findViewById(R.id.xText);
         yText = (TextView)findViewById(R.id.yText);
-        zText = (TextView)findViewById(R.id.zText);
+        zText = (TextView)findViewById(R.id.zText);*/
 
 //Impromovement init  //später mit joystick ersetzen
         forward = (Button)findViewById(R.id.forward);
@@ -79,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 //KAMERA // accelerator
-    @Override				//error?
+   /* @Override
     public void onAccuracyChanged (Sensor sensor, int accuracy) {
         //not in use
     }
@@ -96,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //ViewVideo??
 
-    }					//Refresh button fehlt
+    }*/
 
 //BUTTON  RADIO + MOVEMENT IMPRO  onlick
     @Override
@@ -109,9 +108,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 //radio
                 String url = "https://www.youtube.com/watch?v=EqPtz5qN7HM";
                 MediaPlayer mediaPlayer = new MediaPlayer();
-                mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);			
-                mediaPlayer.setDataSource(url);						//exception?
-                mediaPlayer.prepare();								//exception?
+                mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+                mediaPlayer.setDataSource(url);
+                mediaPlayer.prepare();
                 //vermutlich nicht ideal das prepare etc hier zu haben
 
                 if (radioplaying == false) {
