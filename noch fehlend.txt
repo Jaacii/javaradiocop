@@ -10,7 +10,7 @@ mqtt
 handy/apptest
 radio
 multiple eingaben managen. vorwärts + rechs etc
-
+radio input/pins
 
 
 
