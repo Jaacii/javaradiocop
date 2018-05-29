@@ -1,9 +1,15 @@
 -alle pi anbindungen. -> radiobtn, CamMovement, VehicleMovement
 -joystick/movement als ersatz für die tasten
--richtiges radio, livestream streamen  (momentan nur youtube und ne testseite)
+-richtiges radio (momentan nur youtube und ne testseite)
 -constrait layout    (vertikal- hozirontalanpassung oder ausschaltung des auto-anpassens)
 design verbesserungen 
 
+
+stand 29.5.18
+mqtt
+handy/apptest
+radio
+multiple eingaben managen. vorwärts + rechs etc
 
 
 
