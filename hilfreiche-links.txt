@@ -21,7 +21,7 @@ https://stackoverflow.com/questions/15069857/how-to-interract-android-applicatio
 
 
 
-
+https://www.youtube.com/watch?v=2QHVp-5l_rs     mqtt tutorial setup
 
 
 https://www.youtube.com/watch?v=D-qfVHvNQ8M       sensoren
