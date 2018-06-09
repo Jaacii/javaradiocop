@@ -28,15 +28,17 @@ def on_message(client, userdata, msg):
        print("links")
 		links_motorsteuerung()
 	elif payload == '01':
-        print("Start")
+        print("rechts")
 		rechts_motorsteuerung()
 	elif payload == '101':
-        print("Start")
+        print("Cam right")
 		cam_right()
 	elif payload == '110':
-        print("Start")
+        print("Cam left")
 		cam_left()
-		
+	elif payload == '111':
+        print("Radio")
+		radiotoggle()	
 		
     else:
         print("unbekannter Befehl")
