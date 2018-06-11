@@ -25,3 +25,6 @@ https://www.youtube.com/watch?v=2QHVp-5l_rs     mqtt tutorial setup
 
 
 https://www.youtube.com/watch?v=D-qfVHvNQ8M       sensoren
+
+
+http://androidkt.com/android-mqtt/		mqtt paho
