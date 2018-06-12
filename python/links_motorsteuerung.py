@@ -6,7 +6,7 @@ from setup import * # GPIO Setup importieren und ausführen
 
 try:
         while 1:
-                rechts()
+                links()
                 pr.start(50) # Motor A, speed Tastverhältnis
                 pl.start(50) # Motor B, speed Tastverhältnis
 
