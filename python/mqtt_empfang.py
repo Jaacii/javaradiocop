@@ -21,30 +21,33 @@ def on_connect(client, userdata, flags, rc):
 
 def on_message(client, userdata, msg):
         payload = msg.payload.decode('utf-8')
-        if payload == '0':
+        if payload == 'stop':
                 print("Stop")
                 bremsen()
-        elif payload == '1':
+        elif payload == 'forward':
                 print("Start")
                 losfahren()
                 pr.start(40)
                 pl.start(40)
-        elif payload == '10':
+        elif payload == 'links':
                 print("links")
                 links()
-        elif payload == '01':
+        elif payload == 'rechts':
                 print("rechts")
                 rechts()
-        elif payload == '101':
+        elif payload == 'CamR':
                 print("Cam right")
                 #cam_right()
-        elif payload == '110':
+        elif payload == 'CamL':
                 print("Cam left")
                 #cam_left()
-        elif payload == '111':
+        elif payload == 'RadioAn':
                 print("Radio")
                 #radiotoggle()
-
+			
+		elif payload == 'RadioAus':
+				print("Radio")
+                #radiotoggle()
         else:
                 print("unbekannter Befehl")
 
