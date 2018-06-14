@@ -1,16 +1,16 @@
--alle pi anbindungen. -> radiobtn, CamMovement, VehicleMovement
+
 -joystick/movement als ersatz für die tasten
--richtiges radio (momentan nur youtube und ne testseite)
--constrait layout    (vertikal- hozirontalanpassung oder ausschaltung des auto-anpassens)
-design verbesserungen 
+
 
 
 stand 29.5.18
-mqtt
-handy/apptest
+
 radio
 multiple eingaben managen. vorwärts + rechs etc
 radio input/pins
+etwas gegen kamera übersteuerung,
+testen mit app
+radio aus/an    pi soll das öffnen können 
 
 
 
@@ -18,5 +18,3 @@ radio input/pins
 
 
 
-Problem: apps kann nicht an meinem pc getestet werden, weil die einen intel prozessor vorraussetzen. 
-	 Nicht wissen welche anbindungen beim pi genutzt werden
