@@ -1,0 +1,15 @@
+
+os.system"gcc -o NDR /home/pi/Radio2/example/Radio_off.cpp  /home/pi/Radio2/Si4703_Breakout.cpp -lwiringPi")
+sudo nano ....   -> bearbeiten
+python3 ....
+
+
+
+
+
+
+
+mqtt:
+903
+ndr
+sthh
