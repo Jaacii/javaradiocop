@@ -1,11 +1,13 @@
 #include "../Si4703_Breakout.h"
 #include <stdio.h>
-
+#include "Radio.cpp"
+ 
 int main()
 {
         int resetPin = 23; //GPIO_23
         int sdaPin = 0; //GPIO_0 (SDA)
 
+		channelSelect(false);
         Si4703_Breakout radio(resetPin, sdaPin);
         radio.powerOff();
         //radio.setVolume(5);
@@ -16,6 +18,6 @@ int main()
         printf("Radio aus");
 
         //radio.printRegisters();
-
+		
         return 0;
 }
