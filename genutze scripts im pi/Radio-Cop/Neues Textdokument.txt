@@ -1,0 +1,6 @@
+mqtt empfang -> mqtt verarbeitung -> ruft funktion aus servo, fahrscript, radio aus
+
+radio -> radio schaltung
+servo -> kamera steuerung
+fahrscript -> rädersteuerung
+
