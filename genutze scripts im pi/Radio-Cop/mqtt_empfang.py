@@ -26,6 +26,9 @@ def on_message(client, userdata, msg):
         elif payload == 'forward':
                 print("Start")
                 losfahren()
+		elif payload == 'back':
+                print("back")
+                back()
         elif payload == 'links':
                 print("links")
                 links()
@@ -40,7 +43,7 @@ def on_message(client, userdata, msg):
                cleft()
         elif payload == 'RadioAus':
                 print("Radio")
-				bremsen()  #sicherheitshalber bremsen. latenz könnte einen unfall verursachen durch die radionutzung
+				
 				radio_aus()
 			
 		elif payload == '903':
