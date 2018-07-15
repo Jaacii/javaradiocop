@@ -15,5 +15,5 @@ def ndr():
 def neunzigkommadrei():
 	os.system("sudo /home/pi/Radio2/Radio2/903")
 	
-def sthh():
+def RadioHH():
 	os.system("sudo /home/pi/Radio2/Radio2/StHH")

@@ -51,7 +51,7 @@ def on_message(client, userdata, msg):
                 neunzigkommadrei()
 		elif payload == 'sthh':
 				print("Radio Hamburg")
-                sthh()
+                RadioHH()
 		elif payload == 'ndr':
 				print("NDR2")
                 ndr()
